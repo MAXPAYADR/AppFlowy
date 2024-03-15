@@ -116,6 +116,10 @@
   },
   "blankPageTitle": "صفحه خالی",
   "newPageText": "صفحه جدید",
+  "newDocumentText": "سند جدید",
+  "newGridText": "شبکه جدید",
+  "newCalendarText": "تقویم جدید",
+  "newBoardText": "تابلوی جدید",
   "trash": {
     "text": "سطل زباله",
     "restoreAll": "بازیابی همه",
@@ -132,6 +136,13 @@
     "confirmRestoreAll": {
       "title": "آیا می‌خواهید که همه صفحه‌ها را در سطل زباله بازیابی کنید؟",
       "caption": "این عمل قابل بازگشت نیست."
+    },
+    "mobile": {
+      "actions": "اقدامات سطل زباله",
+      "empty": "سطل زباله خالی است",
+      "emptyDescription": "هیچ فایل حذف شده ای ندارید",
+      "isDeleted": "حذف می شود",
+      "isRestored": "بازسازی می شود"
     }
   },
   "deletePagePrompt": {
@@ -158,6 +169,7 @@
     "defaultNewPageName": "بدون عنوان",
     "renameDialog": "تغییر نام"
   },
+  "noPagesInside": "بدون صفحه در داخل",
   "toolbar": {
     "undo": "Undo",
     "redo": "Redo",
@@ -194,7 +206,8 @@
     "favorites": "مورد علاقه",
     "clickToHidePersonal": "برای پنهان کردن قسمت شخصی کلیک کنید",
     "clickToHideFavorites": "برای پنهان کردن بخش دلخواه کلیک کنید",
-    "addAPage": "افزودن یک صفحه"
+    "addAPage": "افزودن یک صفحه",
+    "recent": "اخیر"
   },
   "notifications": {
     "export": {
@@ -223,11 +236,32 @@
     "discard": "در نظر نگرفتن",
     "replace": "جایگزین کردن",
     "insertBelow": "جاگذاری در پایین",
+    "insertAbove": "درج در بالا",
     "upload": "بارگذاری",
     "edit": "ویرایش",
     "delete": "حذف کردن",
     "duplicate": "تکرار کردن",
-    "putback": "بازگشت"
+    "putback": "بازگشت",
+    "update": "به روز رسانی",
+    "share": "اشتراک گذاری",
+    "removeFromFavorites": "از علاقه مندی ها حذف شود",
+    "addToFavorites": "اضافه کردن به علاقه مندی ها",
+    "rename": "تغییر نام دهید",
+    "helpCenter": "مرکز کمک",
+    "add": "اضافه کردن",
+    "yes": "آره",
+    "clear": "پاک کردن",
+    "remove": "برداشتن",
+    "dontRemove": "حذف نکنید",
+    "copyLink": "لینک را کپی کنید",
+    "align": "تراز کردن",
+    "login": "وارد شدن",
+    "logout": "خروج",
+    "deleteAccount": "حذف حساب کاربری",
+    "back": "بازگشت",
+    "signInGoogle": "با گوگل وارد شوید",
+    "signInGithub": "با Github وارد شوید",
+    "signInDiscord": "با Discord وارد شوید"
   },
   "label": {
     "welcome": "خوش آمدید!",
@@ -256,11 +290,32 @@
       "language": "زبان‌ها",
       "user": "کاربر",
       "files": "فایل‌ها",
+      "notifications": "اطلاعیه",
       "open": "باز کردن تنظیمات",
       "logout": "خروج",
       "logoutPrompt": "آیا مطمئن هستید که می‌خواهید خارج شوید؟",
+      "selfEncryptionLogoutPrompt": "آیا برای خارج شدن مطمئن هستید؟ لطفاً مطمئن شوید که رمز رمزگذاری را کپی کرده اید",
       "syncSetting": "تنظیمات همگام‌سازی",
+      "cloudSettings": "تنظیمات ابر",
       "enableSync": "فعال کردن همگام‌سازی",
+      "enableEncrypt": "داده ها را رمزگذاری کنید",
+      "cloudURL": "URL پایه",
+      "invalidCloudURLScheme": "طرح نامعتبر",
+      "cloudServerType": "سرور ابری",
+      "cloudServerTypeTip": "لطفاً توجه داشته باشید که ممکن است پس از تعویض سرور ابری از حساب فعلی شما خارج شود",
+      "cloudLocal": "محلی",
+      "cloudSupabase": "سوپا بیس",
+      "cloudSupabaseUrl": "نشانی اینترنتی سوپایس",
+      "cloudSupabaseUrlCanNotBeEmpty": "آدرس اینترنتی supabase نمی تواند خالی باشد",
+      "cloudSupabaseAnonKey": "کلید آنون سوپا بیس",
+      "cloudSupabaseAnonKeyCanNotBeEmpty": "کلید anon نمی تواند خالی باشد",
+      "cloudAppFlowy": "AppFlowy Cloud Beta",
+      "cloudAppFlowySelfHost": "AppFlowy Cloud Self-Hosted",
+      "appFlowyCloudUrlCanNotBeEmpty": "آدرس اینترنتی ابری نمی تواند خالی باشد",
+      "clickToCopy": "برای کپی کلیک کنید",
+      "selfHostStart": "اگر سرور ندارید، لطفاً به آن مراجعه کنید",
+      "selfHostContent": "سند",
+      "selfHostEnd": "برای راهنمایی در مورد نحوه میزبانی سرور خود",
       "historicalUserList": "سابقه ورود کاربر",
       "historicalUserListTooltip": "این لیست اکانت‌های ناشناس شما را نمایش می‌دهد. می‌توانید روی یک حساب برای مشاهده جزییات آن کلیک کنید. حساب‌های ناشناس با کلیک کردن روی دکمه شروع‌کنید ایجاد می‌شوند",
       "openHistoricalUser": "برای باز کردن حساب ناشناس کلیک کنید"
