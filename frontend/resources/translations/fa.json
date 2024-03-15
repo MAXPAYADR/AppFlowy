@@ -61,13 +61,26 @@
     "errorActions": {
       "reportIssue": "یک مشکل را گزارش کنید",
       "reportIssueOnGithub": "گزارش یک مشکل در Github",
-      "exportLogFiles": "خروجی گرفتن از فایل های گزارش "
-    }
+      "exportLogFiles": "خروجی گرفتن از فایل های گزارش ",
+      "reachOut": "دسترسی به دیسکورد "
+    },
+    "deleteWorkspaceHintText": "آیا مطمئن هستید که می خواهید فضای کاری را حذف کنید؟ این عمل قابل بازگشت نیست.",
+    "createSuccess": "فضای کاری با موفقیت ایجاد شد",
+    "createFailed": "ایجاد فضای کاری ناموفق بود",
+    "deleteSuccess": "فضای کاری با موفقیت حذف شد",
+    "deleteFailed": "حذف فضای کاری ناموفق بود",
+    "openSuccess": "فضای کاری با موفقیت باز شد",
+    "openFailed": "فضای کاری باز نشد",
+    "renameSuccess": "فضای کاری با موفقیت تغییر نام داد",
+    "renameFailed": "تغییر نام فضای کاری انجام نشد",
+    "updateIconSuccess": "فضای کاری با موفقیت بازنشانی شد",
+    "updateIconFailed": "بازنشانی فضای کاری انجام نشد"
   },
   "shareAction": {
     "buttonText": "اشتراک گذاری",
     "workInProgress": "به زودی",
     "markdown": "Markdown",
+    "csv": "CSV",
     "copyLink": "کپی کردن لینک"
   },
   "moreAction": {
@@ -76,7 +89,12 @@
     "large": "بزرگ",
     "fontSize": "اندازه قلم",
     "import": "اضافه کردن",
-    "moreOptions": "گزینه های بیشتر"
+    "moreOptions": "گزینه های بیشتر",
+    "wordCount": "تعداد کلمه: {}",
+    "charCount": "تعداد کاراکترها: {}",
+    "createdAt": "ایجاد شده: {}",
+    "deleteView": "حذف",
+    "duplicateView": "تکراری"
   },
   "importPanel": {
     "textAndMarkdown": "Text & Markdown",
