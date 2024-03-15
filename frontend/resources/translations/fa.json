@@ -316,9 +316,34 @@
       "selfHostStart": "اگر سرور ندارید، لطفاً به آن مراجعه کنید",
       "selfHostContent": "سند",
       "selfHostEnd": "برای راهنمایی در مورد نحوه میزبانی سرور خود",
+      "cloudURLHint": "URL پایه سرور خود را وارد کنید",
+      "cloudWSURL": "آدرس وب سوکت",
+      "cloudWSURLHint": "آدرس وب سوکت سرور خود را وارد کنید",
+      "restartApp": "راه اندازی مجدد",
+      "restartAppTip": "برنامه را مجدداً راه اندازی کنید تا تغییرات اعمال شوند. لطفاً توجه داشته باشید که این ممکن است از حساب فعلی شما خارج شود",
+      "changeServerTip": "پس از تغییر سرور، باید روی دکمه راه اندازی مجدد کلیک کنید تا تغییرات اعمال شوند",
+      "enableEncryptPrompt": "رمزگذاری را فعال کنید تا اطلاعات خود را با این راز ایمن کنید. آن را با خیال راحت ذخیره کنید؛ پس از فعال شدن، نمی توان آن را خاموش کرد. در صورت گم شدن، داده های شما غیر قابل بازیابی می شود. برای کپی کلیک کنید",
+      "inputEncryptPrompt": "لطفا راز رمزگذاری خود را برای وارد کنید",
+      "clickToCopySecret": "برای کپی راز کلیک کنید",
+      "configServerSetting": "تنظیمات سرور خود را پیکربندی کنید",
+      "configServerGuide": "پس از انتخاب «شروع سریع»، به «تنظیمات» و سپس «تنظیمات ابری» بروید تا سرور میزبان خود را پیکربندی کنید.",
+      "inputTextFieldHint": "راز تو",
       "historicalUserList": "سابقه ورود کاربر",
       "historicalUserListTooltip": "این لیست اکانت‌های ناشناس شما را نمایش می‌دهد. می‌توانید روی یک حساب برای مشاهده جزییات آن کلیک کنید. حساب‌های ناشناس با کلیک کردن روی دکمه شروع‌کنید ایجاد می‌شوند",
-      "openHistoricalUser": "برای باز کردن حساب ناشناس کلیک کنید"
+      "openHistoricalUser": "برای باز کردن حساب ناشناس کلیک کنید",
+      "customPathPrompt": "ذخیره سازی پوشه داده AppFlowy در یک پوشه همگام سازی ابری مانند Google Drive می تواند خطراتی ایجاد کند. اگر به پایگاه داده در این پوشه از چندین مکان به طور همزمان دسترسی یا تغییر داده شود، ممکن است منجر به تداخل در همگام سازی و خرابی داده ها شود.",
+      "importAppFlowyData": "داده ها را از پوشه AppFlowy خارجی وارد کنید",
+      "importingAppFlowyDataTip": "وارد کردن داده ها در حال انجام است. لطفا برنامه را نبندید",
+      "importAppFlowyDataDescription": "داده ها را از یک پوشه داده AppFlowy خارجی کپی کنید و آن را به پوشه داده AppFlowy فعلی وارد کنید",
+      "importSuccess": "پوشه داده AppFlowy با موفقیت وارد شد",
+      "importFailed": "وارد کردن پوشه داده AppFlowy انجام نشد",
+      "importGuide": "برای جزئیات بیشتر، لطفاً سند مرجع را بررسی کنید"
+    },
+    "notifications": {
+      "enableNotifications": {
+        "label": "اعلان ها را فعال کنید",
+        "hint": "برای جلوگیری از نمایش اعلان‌های محلی، آن را خاموش کنید."
+      }
     },
     "appearance": {
       "resetSetting": "تنظیم کردن از اول",
@@ -332,8 +357,36 @@
         "dark": "حالت تاریک",
         "system": "اعمال حالت"
       },
+      "fontScaleFactor": "فاکتور مقیاس قلم",
+      "documentSettings": {
+        "cursorColor": "رنگ مکان نما سند",
+        "selectionColor": "رنگ انتخاب سند",
+        "hexEmptyError": "رنگ هگز نمی تواند خالی باشد",
+        "hexLengthError": "مقدار هگز باید 6 رقمی باشد",
+        "hexInvalidError": "مقدار هگز نامعتبر است",
+        "opacityEmptyError": "Opacity نمی تواند خالی باشد",
+        "opacityRangeError": "شفافیت باید بین 1 تا 100 باشد",
+        "app": "برنامه",
+        "flowy": "روان",
+        "apply": "درخواست دادن"
+      },
+      "layoutDirection": {
+        "label": "جهت چیدمان",
+        "hint": "جریان محتوای روی صفحه نمایش خود را از چپ به راست یا راست به چپ کنترل کنید.",
+        "ltr": "LTR",
+        "rtl": "RTL"
+      },
+      "textDirection": {
+        "label": "جهت متن پیش فرض",
+        "hint": "مشخص کنید متن به عنوان پیش فرض از چپ یا راست شروع شود.",
+        "ltr": "LTR",
+        "rtl": "RTL",
+        "auto": "خودکار",
+        "fallback": "هم جهت طرح"
+      },
       "themeUpload": {
         "button": "بارگذاری",
+        "uploadTheme": "تم آپلود کنید",
         "description": "تم قالب AppFlowy خود را با استفاده از دکمه زیر آپلود کنید.",
         "loading": "لطفاً منتظر بمانید تا تم قالب شما را اعتبارسنجی و آپلود کنیم...",
         "uploadSuccess": "تم قالب شما با موفقیت آپلود شد",
@@ -344,7 +397,40 @@
       },
       "theme": "تم قالب",
       "builtInsLabel": "قالب‌های پیش‌ساخته",
-      "pluginsLabel": "پلاگین‌ها"
+      "pluginsLabel": "پلاگین‌ها",
+      "dateFormat": {
+        "label": "فرمت تاریخ",
+        "local": "محلی",
+        "us": "ایالات متحده",
+        "iso": "ISO",
+        "friendly": "دوستانه",
+        "dmy": "D/M/Y"
+      },
+      "timeFormat": {
+        "label": "فرمت زمان",
+        "twelveHour": "دوازده ساعت",
+        "twentyFourHour": "بیست و چهار ساعت"
+      },
+      "showNamingDialogWhenCreatingPage": "نمایش گفتگوی نامگذاری هنگام ایجاد یک صفحه",
+      "enableRTLToolbarItems": "موارد نوار ابزار RTL را فعال کنید",
+      "members": {
+        "title": "تنظیمات اعضا",
+        "inviteMembers": "دعوت از اعضا",
+        "sendInvite": "ارسال دعوتنامه",
+        "copyInviteLink": "پیوند دعوت را کپی کنید",
+        "label": "اعضا",
+        "user": "کاربر",
+        "role": "نقش",
+        "removeFromWorkspace": "حذف از Workspace",
+        "owner": "مالک",
+        "guest": "مهمان",
+        "member": "عضو",
+        "memberHintText": "یک عضو می تواند صفحات را بخواند، نظر دهد و ویرایش کند. از اعضا و مهمانان دعوت کنید.",
+        "guestHintText": "یک مهمان می تواند بخواند، واکنش نشان دهد، نظر بدهد، و می تواند صفحات خاصی را با اجازه ویرایش کند.",
+        "emailInvalidError": "ایمیل نامعتبر است، لطفاً بررسی کنید و دوباره امتحان کنید",
+        "emailSent": "ایمیل ارسال شد، لطفا صندوق ورودی را بررسی کنید",
+        "members": "اعضا"
+      }
     },
     "files": {
       "copy": "کپی",
@@ -380,12 +466,19 @@
       "recoverLocationTooltips": "بازنشانی به فهرست داده های پیش فرض AppFlowy",
       "exportFileSuccess": "خروجی گرفتن از فایل با موفقیت انجام شد.",
       "exportFileFail": "خروجی گرفتن از فایل انجام نشد!",
-      "export": "خروجی گرفتن"
+      "export": "خروجی گرفتن",
+      "clearCache": "پاک کردن حافظه پنهان",
+      "clearCacheDesc": "اگر با مشکلاتی در بارگیری نشدن تصاویر یا عدم نمایش صحیح فونت ها مواجه شدید، سعی کنید حافظه پنهان خود را پاک کنید. این عمل اطلاعات کاربر شما را حذف نمی کند.",
+      "areYouSureToClearCache": "آیا مطمئن هستید که کش را پاک می کنید؟",
+      "clearCacheSuccess": "کش با موفقیت پاک شد!"
     },
     "user": {
       "name": "نام",
+      "email": "پست الکترونیک",
+      "tooltipSelectIcon": "نماد را انتخاب کنید",
       "selectAnIcon": "انتخاب یک آیکون",
       "pleaseInputYourOpenAIKey": "لطفا کلید OpenAI خود را وارد کنید",
+      "pleaseInputYourStabilityAIKey": "لطفا کلید هوش مصنوعی پایداری خود را وارد کنید",
       "clickToLogout": "برای خروج از کاربر فعلی کلیک کنید"
     },
     "shortcuts": {
@@ -398,11 +491,31 @@
       "resetToDefault": "بازگشت به میانبرهای پیش‌فرض",
       "couldNotLoadErrorMsg": "میانبرها بارگذاری نشد، دوباره امتحان کنید",
       "couldNotSaveErrorMsg": "میانبرها ذخیره نشد، دوباره امتحان کنید"
+    },
+    "mobile": {
+      "personalInfo": "اطلاعات شخصی",
+      "username": "نام کاربری",
+      "usernameEmptyError": "نام کاربری نمی تواند خالی باشد",
+      "about": "در باره",
+      "pushNotifications": "Push Notifications",
+      "support": "حمایت کردن",
+      "joinDiscord": "در دیسکورد به ما بپیوندید",
+      "privacyPolicy": "سیاست حفظ حریم خصوصی",
+      "userAgreement": "توافق کاربر",
+      "termsAndConditions": "شرایط و ضوابط",
+      "userprofileError": "نمایه کاربر بارگیری نشد",
+      "userprofileErrorDescription": "لطفاً سعی کنید از سیستم خارج شوید و دوباره وارد شوید تا بررسی کنید که آیا مشکل همچنان وجود دارد یا خیر.",
+      "selectLayout": "طرح بندی را انتخاب کنید",
+      "selectStartingDay": "روز شروع را انتخاب کنید",
+      "version": "نسخه"
     }
   },
   "grid": {
     "deleteView": "آیا مطمئن هستید که می خواهید این نما را حذف کنید؟",
     "createView": "جدید",
+    "title": {
+      "placeholder": "بدون عنوان"
+    },
     "settings": {
       "filter": "فیلتر",
       "sort": "مرتب کردن",
@@ -415,7 +528,19 @@
       "filterBy": "فیلتر بر اساس...",
       "typeAValue": "یک مقدار را تایپ کنید...",
       "layout": "طرح‌بندی",
-      "databaseLayout": "طرح‌بندی"
+      "databaseLayout": "طرح‌بندی",
+      "viewList": {
+        "zero": "0 بازدید",
+        "one": "{count} مشاهده",
+        "other": "{count} بازدید"
+      },
+      "editView": "ویرایش نمای",
+      "boardSettings": "تنظیمات برد",
+      "calendarSettings": "تنظیمات تقویم",
+      "createView": "نمای جدید",
+      "duplicateView": "نمای تکراری",
+      "deleteView": "حذف نمای",
+      "numberOfVisibleFields": "{} نشان داده شده"
     },
     "textFilter": {
       "contains": "شامل",
@@ -450,6 +575,34 @@
       "isNot": "نیست",
       "contains": "شامل",
       "doesNotContain": "شامل نیست",
+      "isEmpty": "خالی است",
+      "isNotEmpty": "خالی نیست"
+    },
+    "dateFilter": {
+      "is": "است",
+      "before": "قبل است",
+      "after": "در پی است",
+      "onOrBefore": "روشن است یا قبل از آن",
+      "onOrAfter": "روشن یا بعد از آن است",
+      "between": "بین است",
+      "empty": "خالی است",
+      "notEmpty": "خالی نیست",
+      "choicechipPrefix": {
+        "before": "قبل از",
+        "after": "بعد از",
+        "onOrBefore": "سر موعد یا قبل از موعد",
+        "onOrAfter": "در یا بعد",
+        "isEmpty": "خالی است",
+        "isNotEmpty": "خالی نیست"
+      }
+    },
+    "numberFilter": {
+      "equal": "برابر است",
+      "notEqual": "برابر نیست",
+      "lessThan": "کمتر است از",
+      "greaterThan": "بزرگتر است از",
+      "lessThanOrEqualTo": "کمتر یا مساوی است",
+      "greaterThanOrEqualTo": "بزرگتر یا مساوی است",
       "isEmpty": "خالی است",
       "isNotEmpty": "خالی نیست"
     },
