@@ -1049,10 +1049,13 @@
       "changeLayoutDateField": "تغییر فیلد طرح",
       "noDateTitle": "بدون تاریخ",
       "noDateHint": "رویدادهای برنامه‌ریزی نشده در اینجا نشان داده می‌شوند",
+      "unscheduledEventsTitle": "رویدادهای برنامه ریزی نشده",
       "clickToAdd": "برای افزودن به تقویم کلیک کنید",
       "name": "طرح‌بندی تقویم"
     },
-    "referencedCalendarPrefix": "نمای"
+    "referencedCalendarPrefix": "نمای",
+    "quickJumpYear": "پرش به",
+    "duplicateEvent": "رویداد تکراری"
   },
   "errorDialog": {
     "title": "خطای AppFlowy",
@@ -1090,6 +1093,10 @@
     "gray": "خاکستری"
   },
   "emoji": {
+    "emojiTab": "ایموجی",
+    "search": "جستجوی ایموجی",
+    "noRecent": "ایموجی اخیر وجود ندارد",
+    "noEmojiFound": "ایموجی پیدا نشد",
     "filter": "فیلتر",
     "random": "تصادفی",
     "selectSkinTone": "انتخاب رنگ پوست",
@@ -1106,6 +1113,160 @@
       "flags": "پرچم‌ها",
       "nature": "طبیعت",
       "frequentlyUsed": "استفاده‌شده"
+    },
+    "skinTone": {
+      "default": "پیش فرض",
+      "light": "روشن",
+      "mediumLight": "روشن-متوسط",
+      "medium": "متوسط",
+      "mediumDark": "تیره-متوسط ",
+      "dark": "تیره"
     }
+  },
+  "inlineActions": {
+    "noResults": "بدون نتیجه ای",
+    "pageReference": "مرجع صفحه",
+    "docReference": "مرجع سند",
+    "boardReference": "مرجع تخته",
+    "calReference": "مرجع تقویم",
+    "gridReference": "مرجع شبکه",
+    "date": "تاریخ",
+    "reminder": {
+      "groupTitle": "یادآور",
+      "shortKeyword": "به یاد آوردن"
+    }
+  },
+  "datePicker": {
+    "dateTimeFormatTooltip": "قالب تاریخ و زمان را در تنظیمات تغییر دهید",
+    "dateFormat": "فرمت تاریخ",
+    "includeTime": "شامل زمان",
+    "isRange": "تاریخ پایان",
+    "timeFormat": "فرمت زمان",
+    "clearDate": "پاک کردن تاریخ  ",
+    "reminderLabel": "یادآور",
+    "selectReminder": "یادآوری را انتخاب کنید",
+    "reminderOptions": {
+      "none": "هیچ یک",
+      "atTimeOfEvent": "زمان رویداد",
+      "fiveMinsBefore": "5 دقیقه قبل",
+      "tenMinsBefore": "10 دقیقه قبل",
+      "fifteenMinsBefore": "15 دقیقه قبل",
+      "thirtyMinsBefore": "30 دقیقه قبل",
+      "oneHourBefore": "1 ساعت قبل",
+      "twoHoursBefore": "2 ساعت قبل",
+      "onDayOfEvent": "در روز رویداد",
+      "oneDayBefore": "1 روز قبل",
+      "twoDaysBefore": "2 روز قبل",
+      "oneWeekBefore": "1 هفته قبل",
+      "custom": "سفارشی"
+    }
+  },
+  "relativeDates": {
+    "yesterday": "دیروز",
+    "today": "امروز",
+    "tomorrow": "فردا",
+    "oneWeek": "1 هفته"
+  },
+  "notificationHub": {
+    "title": "اطلاعیه",
+    "mobile": {
+      "title": "به روز رسانی ها"
+    },
+    "emptyTitle": "همه گرفتار!",
+    "emptyBody": "هیچ اعلان یا اقدام معلقی وجود ندارد. از آرامش لذت ببر",
+    "tabs": {
+      "inbox": "صندوق ورودی",
+      "upcoming": "آینده"
+    },
+    "actions": {
+      "markAllRead": "همه را به عنوان خوانده شده علامت بزن",
+      "showAll": "همه",
+      "showUnreads": "خوانده نشده"
+    },
+    "filters": {
+      "ascending": "صعودی",
+      "descending": "نزولی",
+      "groupByDate": "گروه بر اساس تاریخ",
+      "showUnreadsOnly": "فقط موارد خوانده نشده نمایش داده شود",
+      "resetToDefault": "تنظیم مجدد به حالت پیش فرض"
+    }
+  },
+  "reminderNotification": {
+    "title": "یادآور",
+    "message": "به یاد داشته باشید قبل از اینکه فراموش کنید این را بررسی کنید!",
+    "tooltipDelete": "حذف",
+    "tooltipMarkRead": "به عنوان خوانده شده علامت بزن",
+    "tooltipMarkUnread": "به عنوان \"خوانده نشده\" علامت گذاری کن"
+  },
+  "findAndReplace": {
+    "find": "پیدا کردن",
+    "previousMatch": "مسابقه قبلی",
+    "nextMatch": "مسابقه بعدی",
+    "close": "بستن",
+    "replace": "جایگزین کردن",
+    "replaceAll": "همه را جایگزین کنید",
+    "noResult": "هیچ نتیجه ای",
+    "caseSensitive": "حساس به حروف کوچک و بزرگ",
+    "searchMore": "برای یافتن نتایج بیشتر جستجو کنید"
+  },
+  "error": {
+    "weAreSorry": "ما متاسفیم",
+    "loadingViewError": "ما در بارگیری این نما با مشکل مواجه هستیم. لطفاً اتصال اینترنت خود را بررسی کنید، برنامه را به‌روزرسانی کنید، و در صورت ادامه مشکل در تماس با تیم دریغ نکنید."
+  },
+  "editor": {
+    "bold": "پررنگ",
+    "bulletedList": "لیست گلوله شده",
+    "bulletedListShortForm": "گلوله شده",
+    "checkbox": "چک باکس",
+    "embedCode": "کد را جاسازی کنید",
+    "heading1": "H1",
+    "heading2": "H2",
+    "heading3": "H3",
+    "highlight": "برجسته",
+    "color": "رنگ",
+    "image": "تصویر",
+    "date": "تاریخ",
+    "italic": "کج",
+    "link": "ارتباط دادن",
+    "numberedList": "لیست شماره گذاری شده",
+    "numberedListShortForm": "شماره گذاری شده است",
+    "quote": "نقل قول",
+    "strikethrough": "ضربه زدن",
+    "text": "متن",
+    "underline": "زیر خط بکشید",
+    "fontColorDefault": "پیش فرض",
+    "fontColorGray": "خاکستری",
+    "fontColorBrown": "رنگ قهوه ای",
+    "fontColorOrange": "نارنجی",
+    "fontColorYellow": "رنگ زرد",
+    "fontColorGreen": "سبز",
+    "fontColorBlue": "آبی",
+    "fontColorPurple": "رنگ بنفش",
+    "fontColorPink": "رنگ صورتی",
+    "fontColorRed": "قرمز",
+    "backgroundColorDefault": "پس زمینه پیش فرض",
+    "backgroundColorGray": "پس زمینه خاکستری",
+    "backgroundColorBrown": "پس زمینه قهوه ای",
+    "backgroundColorOrange": "پس زمینه نارنجی",
+    "backgroundColorYellow": "پس زمینه زرد",
+    "backgroundColorGreen": "پس زمینه سبز",
+    "backgroundColorBlue": "پس زمینه آبی",
+    "backgroundColorPurple": "پس زمینه بنفش",
+    "backgroundColorPink": "پس زمینه صورتی",
+    "backgroundColorRed": "پس زمینه قرمز",
+    "backgroundColorLime": "پس زمینه آهک",
+    "backgroundColorAqua": "پس زمینه آبی",
+    "done": "انجام شده",
+    "cancel": "لغو کنید",
+    "tint1": "رنگ 1",
+    "tint2": "رنگ 2",
+    "tint3": "رنگ 3",
+    "tint4": "رنگ 4",
+    "tint5": "رنگ 5",
+    "tint6": "رنگ 6",
+    "tint7": "رنگ 7",
+    "tint8": "رنگ 8",
+    "tint9": "رنگ 9",
+    "lightLightTint1": "رنگ بنفش"
   }
 }
